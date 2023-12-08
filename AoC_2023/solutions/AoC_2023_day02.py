@@ -4,7 +4,7 @@ Read file, get game ID#, get number of cubes per subset, check if it exceeds lim
 """
 import re
 
-input_file_path = 'AoC_2023\input_files\AoC_2023_day02_input.txt'
+input_file_path = 'input_files\AoC_2023_day02_input.txt'
 
 possible_bag = {
     "red" : 12,

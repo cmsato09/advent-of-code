@@ -1,4 +1,4 @@
-input_file = open('AoC_2023\input_files\AoC_2023_day05_input.txt').read()
+input_file = open('input_files\AoC_2023_day05_input.txt').read()
 
 def num_conversion(source: int, map: list) -> int:
     for line in map:

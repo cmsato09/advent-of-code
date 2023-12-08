@@ -5,7 +5,7 @@ find symbol, check if there is a number around it. If so, add it to a list of nu
 import string
 
 schematic = []
-input_file = 'AoC_2023\input_files\AoC_2023_day03_input.txt'
+input_file = 'input_files\AoC_2023_day03_input.txt'
 with open(input_file, 'r') as input:
     for line in input:
         schematic.append(line)

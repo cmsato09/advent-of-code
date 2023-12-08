@@ -1,4 +1,4 @@
-input_file = 'AoC_2023\input_files\AoC_2023_day06_input.txt'
+input_file = 'input_files\AoC_2023_day06_input.txt'
 
 def wincondition(total_time: int, distance_to_beat: int):
     """ Part One soln """

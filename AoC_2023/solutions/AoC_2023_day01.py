@@ -22,7 +22,7 @@ def findFirstandLast(line: str) -> int:
 
 def findcalibrationsum():
     """ Solves Part 1 of Advent of Code Day 1 """
-    file_path = 'AoC_2023\input files\AoC_2023_day01_input.txt'
+    file_path = 'input_files\AoC_2023_day01_input.txt'
     total = 0
     with open(file_path) as input:
         for line in input:
@@ -75,7 +75,7 @@ def findFirstandLastletterdigit(line: str):
 
 def findcalibrationsum2():
     """ Solves Part 2 of Advent of Code Day 1 """
-    file_path = 'AoC_2023\input files\AoC_2023_day01_input.txt'
+    file_path = 'input_files\AoC_2023_day01_input.txt'
     total = 0
     with open(file_path) as input:
         for line in input:

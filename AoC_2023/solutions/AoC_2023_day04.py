@@ -1,6 +1,6 @@
 import re
 
-input_file = 'AoC_2023\input_files\AoC_2023_day04_input.txt'
+input_file = 'input_files\AoC_2023_day04_input.txt'
 
 def winningcards(line: str):
     game = re.split(r':|\|', line)
