@@ -1,12 +1,18 @@
-# Part 1 ideas 
-# loop through each line to find first number and last number -- seems inefficient. 
-# loop from the front to find first value, loop from the back to find last value
+"""
+Part 1 ideas 
+1. loop through each line to find first number and last number -- seems inefficient. 
+2. loop from the front to find first value, loop from the back to find last value
 
-# if there is only 1 number, it acts as the first and last number
-# e.g. treb7uchet only has a '7', so the calibration value is 77
+  if there is only 1 number, it acts as the first and last number
+  e.g. treb7uchet only has a '7', so the calibration value is 77
+"""
 
 def findFirstandLast(line: str) -> int:
-    """ Part 1 soln """
+    """ Part 1 soln 
+        Finds first digit from start of the string and adds to return string
+        Finds first digit from end of the string and adds to return string
+        converts digit string into integer
+    """
     calibration_value = ""
     for char in line:
         if char.isdigit():
